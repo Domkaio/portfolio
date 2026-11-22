@@ -1,0 +1,18 @@
+body {
+    background: radial-gradient(circle, white 8%, black 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    cursor: pointer;
+}
+/* Layout adaptável e controle acessível, mantendo o visual do projeto. */
+* { box-sizing: border-box; }
+body { min-height: 100dvh; height: auto; padding: 18px; }
+.container { display: flex; justify-content: center; align-items: center; width: 100%; }
+#lamp { display: block; width: min(78vw, 340px); height: auto; object-fit: contain; cursor: pointer; }
+#lamp:focus-visible { outline: 3px solid #6f55ba; outline-offset: 6px; border-radius: 14px; }
