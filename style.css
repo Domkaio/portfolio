@@ -148,3 +148,32 @@ h2 { font-size: clamp(33px,3.6vw,49px); letter-spacing: -2.2px; margin-bottom: 0
   .skill-top > span { font-size: 12px; }
   .skill-top small { font-size: 10px; }
 }
+
+
+/* Ajustes da versão 3: foto de perfil, abordagem mais preenchida e envio de contato. */
+.portrait-frame { background: #201a3a; }
+.portrait-frame img { aspect-ratio: 4 / 5; object-fit: cover; object-position: center; }
+.learning-card { display: flex; flex-direction: column; gap: 24px; padding: 31px 32px 24px; }
+.learning-card h3 { margin: 17px 0 15px; }
+.learning-intro > p:not(.learning-label) { color: #b5b8cc; font-size: 13px; line-height: 1.8; margin: 0; max-width: 42ch; }
+.approach-steps { display: grid; gap: 9px; }
+.approach-step { display: flex; align-items: center; gap: 15px; padding: 12px 13px; border: 1px solid #423b5b; border-radius: 10px; background: #ffffff08; }
+.step-number { display: grid; place-items: center; flex: 0 0 36px; width: 36px; height: 36px; border-radius: 8px; background: #40365d; color: #d5c6ff; font: 700 12px var(--heading); }
+.approach-step strong { color: #f3efff; display: block; font: 700 13px var(--heading); line-height: 1.4; }
+.approach-step small { display: block; color: #aeb0c5; font-size: 11px; line-height: 1.5; margin-top: 1px; }
+.learning-bottom { margin-top: auto; padding-top: 17px; }
+.form-submit:disabled { opacity: .6; cursor: not-allowed; box-shadow: none; transform: none; }
+.form-status { line-height: 1.6; }
+@media (max-width: 850px) {
+  .learning-card { max-width: none; }
+}
+@media (max-width: 600px) {
+  .learning-card { gap: 21px; padding: 26px 22px 23px; }
+  .learning-card h3 { font-size: 29px; }
+  .approach-step { gap: 11px; padding: 11px; }
+  .step-number { flex-basis: 34px; width: 34px; height: 34px; }
+  .portrait-panel { max-width: 460px; }
+}
+
+/* Evita rolagem horizontal em telas pequenas (até 320 px). */
+.ambient { max-width: 100vw; }
