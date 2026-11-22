@@ -2,13 +2,6 @@
 
 Portfólio pessoal em **HTML, CSS e JavaScript**, criado para Programação Web Frontend (UNIT, prof. Josimar Santos). Este pacote foi atualizado a partir do ZIP editado pelo autor; os miniprojetos mantêm suas versões, com pequenos ajustes de responsividade e usabilidade.
 
-## Executar
-
-1. Extraia todo o ZIP, mantendo a estrutura de pastas.
-2. Abra **`index.html`** no navegador.
-3. Os botões **Testar** abrem as demonstrações locais, e **GitHub** abre o repositório específico.
-4. O site principal funciona offline; o envio de contato e recursos hospedados por terceiros exigem internet.
-
 ## Contato — ativação necessária
 
 O formulário está configurado para receber mensagens em **joaobrtcastro@gmail.com**, usando [FormSubmit](https://formsubmit.co/) e validação em JavaScript.
