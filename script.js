@@ -94,6 +94,14 @@
         if (toTop) toTop.addEventListener("click", function () {
             window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
         });
+
+        // Logo JC.: clique retorna ao topo, também em celulares.
+        const brand = $(".site-header .brand");
+        if (brand) brand.addEventListener("click", function (event) {
+            event.preventDefault();
+            setMenu(false);
+            window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
+        });
     });
 
     /* ---------- Revelar ao rolar (com atraso escalonado) ---------- */
