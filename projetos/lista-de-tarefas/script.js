@@ -15,6 +15,7 @@ botao.addEventListener("click", function() {
  
     texto.textContent = tarefa;
     apagar.textContent = "X";
+    apagar.setAttribute("aria-label", "Remover tarefa: " + tarefa);
     apagar.type = "button";
     apagar.addEventListener("click", function() {
         item.remove();
@@ -25,4 +26,12 @@ botao.addEventListener("click", function() {
     lista.appendChild(item);
  
     campo.value = "";
+});
+
+// Permite adicionar a tarefa apertando Enter no campo de texto.
+campo.addEventListener("keydown", function(evento) {
+    if (evento.key === "Enter") {
+        evento.preventDefault();
+        botao.click();
+    }
 });
