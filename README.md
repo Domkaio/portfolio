@@ -11,6 +11,9 @@ Portfólio pessoal em **HTML, CSS e JavaScript**, criado para Programação Web 
 - [Cat Solitaire — jogar](https://domkaio.github.io/cat-solitaire/)
 - [Cat Solitaire — GitHub](https://github.com/Domkaio/cat-solitaire)
 
+- [Cat Mine — jogar](https://domkaio.github.io/cat-mine/)
+- [Cat Mine — GitHub](https://github.com/Domkaio/cat-mine)
+
 ## Miniprojetos publicados
 
 - Calculadora — [acessar site](https://domkaio.github.io/miniprojeto-calculadora/) · [GitHub](https://github.com/Domkaio/miniprojeto-calculadora) — operações básicas e teclado
@@ -49,3 +52,10 @@ João Castro · https://github.com/Domkaio
 - Calculadora, Lâmpada e Lista de Tarefas passam a abrir seus respectivos sites no GitHub Pages.
 - Removidas as cópias locais dos três projetos; a imagem da lâmpada foi preservada em `assets/project-previews/`.
 - Links dos repositórios, layout e demais funcionalidades preservados.
+
+## Histórico de alterações — V10.8
+
+- Adicionado Cat Mine com links para jogar e consultar o código.
+- Projetos separados em duas categorias: quatro projetos principais e três miniprojetos.
+- Grade responsiva: projetos em duas colunas e miniprojetos em três no desktop largo; uma coluna em celulares.
+- Mantidos os links externos e demais funcionalidades.
