@@ -1,7 +1,6 @@
 # Portfólio — João Castro
 
-Portfólio pessoal em **HTML, CSS e JavaScript**, criado para Programação Web Frontend (UNIT, prof. Josimar Santos). Este pacote foi atualizado a partir do ZIP editado pelo autor; os miniprojetos mantêm suas versões, com pequenos ajustes de responsividade e usabilidade.
-
+Portfólio pessoal em **HTML, CSS e JavaScript**, criado para Programação Web Frontend (UNIT).
 
 ## Projetos publicados
 
@@ -12,31 +11,11 @@ Portfólio pessoal em **HTML, CSS e JavaScript**, criado para Programação Web 
 - [Cat Solitaire — jogar](https://domkaio.github.io/cat-solitaire/)
 - [Cat Solitaire — GitHub](https://github.com/Domkaio/cat-solitaire)
 
-VALORANT Hub, BrightFuture e Cat Solitaire abrem sites externos hospedados no GitHub Pages; o código deles não está incluído neste ZIP. BrightFuture é um projeto acadêmico em equipe e o link leva ao repositório de Kawhan010, conforme informado pelo autor. Os cards do portfólio usam miniaturas ilustrativas feitas em HTML/CSS, não capturas reais dos sites.
-
 ## Repositórios dos miniprojetos
 
 - [Calculadora](https://github.com/Domkaio/miniprojeto-calculadora) — operações básicas e teclado
 - [Lâmpada](https://github.com/Domkaio/miniprojeto-lampada) — alternância de imagem e cenário
 - [Lista de tarefas](https://github.com/Domkaio/miniprojeto-lista-de-tarefas) — criação e remoção de tarefas
-
-As demonstrações locais estão em `projetos/`. Os links para o GitHub foram fornecidos pelo autor e levam ao **código-fonte**; não dependem de GitHub Pages estar ativado para cada repositório.
-
-## Principais arquivos
-
-```text
-Portfolio-Joao-Castro/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── favicon.svg
-│   └── ilustracao-perfil.svg
-└── projetos/
-    ├── calculadora/
-    ├── lampada/
-    └── lista-de-tarefas/
-```
 
 ---
 
