@@ -11,11 +11,11 @@ Portfólio pessoal em **HTML, CSS e JavaScript**, criado para Programação Web 
 - [Cat Solitaire — jogar](https://domkaio.github.io/cat-solitaire/)
 - [Cat Solitaire — GitHub](https://github.com/Domkaio/cat-solitaire)
 
-## Repositórios dos miniprojetos
+## Miniprojetos publicados
 
-- [Calculadora](https://github.com/Domkaio/miniprojeto-calculadora) — operações básicas e teclado
-- [Lâmpada](https://github.com/Domkaio/miniprojeto-lampada) — alternância de imagem e cenário
-- [Lista de tarefas](https://github.com/Domkaio/miniprojeto-lista-de-tarefas) — criação e remoção de tarefas
+- Calculadora — [acessar site](https://domkaio.github.io/miniprojeto-calculadora/) · [GitHub](https://github.com/Domkaio/miniprojeto-calculadora) — operações básicas e teclado
+- Lâmpada — [acessar site](https://domkaio.github.io/miniprojeto-lampada/) · [GitHub](https://github.com/Domkaio/miniprojeto-lampada) — alternância de imagem e cenário
+- Lista de tarefas — [acessar site](https://domkaio.github.io/miniprojeto-lista-de-tarefas/) · [GitHub](https://github.com/Domkaio/miniprojeto-lista-de-tarefas) — criação e remoção de tarefas
 
 ---
 
@@ -43,3 +43,9 @@ João Castro · https://github.com/Domkaio
 - Contagem atualizada para seis projetos.
 - Grade responsiva ajustada: três colunas em desktops largos, duas em tablets e uma em celulares.
 - Preservados o formulário de contato, a foto, o cursor, as animações e as demonstrações locais.
+
+## Histórico de alterações — V10.7
+
+- Calculadora, Lâmpada e Lista de Tarefas passam a abrir seus respectivos sites no GitHub Pages.
+- Removidas as cópias locais dos três projetos; a imagem da lâmpada foi preservada em `assets/project-previews/`.
+- Links dos repositórios, layout e demais funcionalidades preservados.
